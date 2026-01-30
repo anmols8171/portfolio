@@ -12,7 +12,7 @@ import Homepage from './pages/homepage';
 
 const Routes = () => {
   return (
-    <BrowserRouter basename="/anmol-portfolio">
+    <BrowserRouter>
       <ErrorBoundary>
       <ScrollToTop />
       <RouterRoutes>
